@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.1] - 2025-05-03
+
+### Changed
+
+- Updated gem description and author attribution.
+
 ## [0.1.0] - 2024-01-01
 
 ### Added
