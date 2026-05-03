@@ -12,9 +12,13 @@ where no `gem install` step is possible.
 This gem is free and open source. If it saves you time on a hydraulic
 modelling project, you can support development here:
 
-[![Buy Me a Coffee](https://github.com/Sebasmadridmx/SMO-WGS84-TO-BNG/blob/main/temp_png/buymecoffeeqr.png)](https://buymeacoffee.com/smadrid)
-
-[buymeacoffee.com/smadrid](https://buymeacoffee.com/smadrid)
+<p align="center">
+  <a href="https://buymeacoffee.com/smadrid">
+    <img src="https://github.com/Sebasmadridmx/SMO-WGS84-TO-BNG/raw/main/temp_png/buymecoffeeqr.png" width="180" alt="Buy Me a Coffee QR code">
+  </a>
+  <br>
+  <a href="https://buymeacoffee.com/smadrid">buymeacoffee.com/smadrid</a>
+</p>
 
 ## Why this gem
 
@@ -26,17 +30,9 @@ a handful of stations.
 This gem makes the SEPA KiWIS API directly callable from any Ruby environment,
 including ICM's embedded interpreter. It uses stdlib only (`net/http`, `uri`,
 `json`, `csv`, `date`, `time`), has no native extensions, and no Bundler
-runtime dependencies. Load it with a single `require_relative`.
+runtime dependencies.
 
 ## Installation
-
-**Option A. Clone and require directly (recommended for InfoWorks ICM):**
-
-```ruby
-require_relative "C:/path/to/smo_sepa_kiwis/lib/smo_sepa_kiwis"
-```
-
-**Option B. Install from RubyGems (when published):**
 
 ```sh
 gem install smo_sepa_kiwis
@@ -139,10 +135,10 @@ lat/lon to BNG easting/northing.
 
 The `examples/` directory contains runnable scripts:
 
-- `01_list_rainfall_stations.rb` — fetch all rainfall stations and save to CSV
-- `02_find_15min_timeseries.rb` — list 15-min series for a given station
-- `03_download_rainfall_event.rb` — download a storm event window
-- `04_bulk_export_csv.rb` — full inventory plus the last 7 days of values for every station
+- `01_list_rainfall_stations.rb`: fetch all rainfall stations and save to CSV
+- `02_find_15min_timeseries.rb`: list 15-min series for a given station
+- `03_download_rainfall_event.rb`: download a storm event window
+- `04_bulk_export_csv.rb`: full inventory plus the last 7 days of values for every station
 
 Run any of them with:
 
@@ -166,7 +162,13 @@ GitHub: [Sebasmadridmx](https://github.com/Sebasmadridmx)
 If this gem saves you time on a hydraulic modelling project, consider
 buying me a coffee:
 
-[buymeacoffee.com/smadrid](https://buymeacoffee.com/smadrid)
+<p align="center">
+  <a href="https://buymeacoffee.com/smadrid">
+    <img src="https://github.com/Sebasmadridmx/SMO-WGS84-TO-BNG/raw/main/temp_png/buymecoffeeqr.png" width="140" alt="Buy Me a Coffee QR code">
+  </a>
+  <br>
+  <a href="https://buymeacoffee.com/smadrid">buymeacoffee.com/smadrid</a>
+</p>
 
 ## License
 
